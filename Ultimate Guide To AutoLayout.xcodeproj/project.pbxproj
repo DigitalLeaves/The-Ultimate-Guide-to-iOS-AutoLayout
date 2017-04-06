@@ -12,6 +12,8 @@
 		663878DA1E87F2040040A0D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663878D81E87F2040040A0D7 /* Main.storyboard */; };
 		663878DC1E87F2040040A0D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663878DB1E87F2040040A0D7 /* Assets.xcassets */; };
 		663878DF1E87F2040040A0D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663878DD1E87F2040040A0D7 /* LaunchScreen.storyboard */; };
+		668941D01E9425E000AA506A /* AbsoluteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668941CF1E9425E000AA506A /* AbsoluteViewController.swift */; };
+		668941D21E942ABB00AA506A /* RelativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668941D11E942ABB00AA506A /* RelativeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		663878DB1E87F2040040A0D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		663878DE1E87F2040040A0D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		663878E01E87F2040040A0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668941CF1E9425E000AA506A /* AbsoluteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsoluteViewController.swift; sourceTree = "<group>"; };
+		668941D11E942ABB00AA506A /* RelativeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelativeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				663878D41E87F2040040A0D7 /* AppDelegate.swift */,
 				663878D61E87F2040040A0D7 /* ViewController.swift */,
+				668941CF1E9425E000AA506A /* AbsoluteViewController.swift */,
+				668941D11E942ABB00AA506A /* RelativeViewController.swift */,
 				663878D81E87F2040040A0D7 /* Main.storyboard */,
 				663878DB1E87F2040040A0D7 /* Assets.xcassets */,
 				663878DD1E87F2040040A0D7 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			files = (
 				663878D71E87F2040040A0D7 /* ViewController.swift in Sources */,
 				663878D51E87F2040040A0D7 /* AppDelegate.swift in Sources */,
+				668941D21E942ABB00AA506A /* RelativeViewController.swift in Sources */,
+				668941D01E9425E000AA506A /* AbsoluteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				663878E51E87F2040040A0D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
